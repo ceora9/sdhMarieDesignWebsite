@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from 'react-router-dom';
 import "./App.css";
 
 const Landing = () => (
@@ -11,13 +11,17 @@ const Landing = () => (
         <Row>
             <Col sm={4}>
                 <Jumbotron>
-                    <h2 className="header">artist</h2>
-                    <br></br>
-                    <Link to='./UXDesign/SELApp'>designer</Link>
-                    <h2 className="header"></h2>
-                    <br></br>
-                    <h2 className="header">coder</h2>
-                    <br></br>
+                    <ul>
+                        <li>
+                            <Link to='#'>artist</Link>
+                        </li>
+                        <li>
+                            <Link to='/SELApp'>designer</Link>
+                        </li>
+                        <li>
+                            <Link to='#'>coder</Link>
+                        </li>
+                    </ul>
                 </Jumbotron>
             </Col>
             <Col>

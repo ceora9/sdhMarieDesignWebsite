@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Routes from './Routes';
+import Routes from './routing/Routes';
 import Navigation from './Navigation';
 import Landing from './Landing';
 import "bootstrap/dist/css/bootstrap.min.css";
