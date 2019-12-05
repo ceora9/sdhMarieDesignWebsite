@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SELapp_style1 from '../images/SELapp_style1.jpg';
-import SELapp_wireframes from '../images/SELapp_wireframes.jpg';
 import SELapp_wireframes_landing from '../images/SELapp_wireframes_landing.jpg';
 import SELapp_wireframes_admin1 from '../images/SELapp_wireframes_admin1.jpg';
 import SELapp_wireframes_admin2 from '../images/SELapp_wireframes_admin2.jpg';
@@ -24,8 +23,6 @@ import SELapp_wireframes_teacher2 from '../images/SELapp_wireframes_teacher2.jpg
 import SELapp_wireframes_teacher3 from '../images/SELapp_wireframes_teacher3.jpg';
 import SELapp_wireframes_teacher4 from '../images/SELapp_wireframes_teacher4.jpg';
 
-//CAROUSEL STARTER CODE 
-
 class SELApp extends Component {
     render() {
         return (
@@ -35,111 +32,111 @@ class SELApp extends Component {
                 </Row>
                 <Row>
                     <img
-                        className='d-block w-50'
+                        className='d-block w-25'
                         src={SELapp_style1} alt='SELapp Style Tile' />
                 </Row>
 
                 <Row>
-                    <Carousel>
+                    <Carousel fade={true} interval={3000}>
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_landing} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_admin1} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_admin2} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_admin3} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_admin4} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_admin5} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_caregiver1} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_caregiver2} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_student1} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_student2} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_student3} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_student4} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_student5} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_teacher1} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_teacher2} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_teacher3} alt='SELapp Wireframes' />
                         </Carousel.Item>
 
                         <Carousel.Item>
                             <img
-                                className='d-block w-50'
+                                className='d-block w-25'
                                 src={SELapp_wireframes_teacher4} alt='SELapp Wireframes' />
                         </Carousel.Item>
                     </Carousel>
